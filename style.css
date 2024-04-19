@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header__content {
+    margin-top: 120px;
+    width: 100%;
+}
+
+body {
+    background-color: rgba(0, 0, 139, 0.596);
+}
+
+.header__key {
+    height: 120px;
+    margin: 50px auto;
+    width: 15%;
+    transition: .5s ease;
+    border-radius: 10px;
+    text-align: center;
+    border: 0.4px solid white;
+    background-color: transparent;
+}
+
+.header__key>h1 {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.like {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.which {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.code {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.location {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.clear {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    letter-spacing: 1px;
+    font-weight: 100;
+    height: 5vh;
+    transition: .2s ease;
+    width: 95px;
+}
+
+
+.header__key:hover {
+    -moz-transform: scale(1.1) translate(21px, 2px) skew(-4deg, 0deg);
+    -webkit-transform: scale(1.1) translate(21px, 2px) skew(-4deg, 0deg);
+    -o-transform: scale(1.1) translate(21px, 2px) skew(-4deg, 0deg);
+    -ms-transform: scale(1.1) translate(21px, 2px) skew(-4deg, 0deg);
+    transform: scale(1.1) translate(21px, 2px) skew(-4deg, 0deg);
+}
+
+button:hover {
+    color: red;
+    border: 1px solid red;
+    -moz-transform: scale(1.2) translate(0px, -6px) skew(1deg, 0deg);
+    -webkit-transform: scale(1.2) translate(0px, -6px) skew(1deg, 0deg);
+    -o-transform: scale(1.2) translate(0px, -6px) skew(1deg, 0deg);
+    -ms-transform: scale(1.2) translate(0px, -6px) skew(1deg, 0deg);
+    transform: scale(1.1) translate(0px, -6px) skew(1deg, 0deg);
+}
+
+@media (max-width:440px) {
+    .header__key {
+        width: 60%;
+        height: 100px;
+    }
+
+    .like {
+        text-align: center;
+        margin-top: 22px;
+    }
+
+    .which {
+        text-align: center;
+        margin-top: 22px;
+    }
+
+    .code {
+        text-align: center;
+        margin-top: 22px;
+    }
+
+    .location {
+        text-align: center;
+        margin-top: 22px;
+    }
+
+    .header__key:hover {
+        -moz-transform: scale(1.1) translate(12px, 2px) skew(-11deg, 0deg);
+        -webkit-transform: scale(1.1) translate(12px, 2px) skew(-11deg, 0deg);
+        -o-transform: scale(1.1) translate(12px, 2px) skew(-11deg, 0deg);
+        -ms-transform: scale(1.1) translate(12px, 2px) skew(-11deg, 0deg);
+        transform: scale(1.1) translate(12px, 2px) skew(-11deg, 0deg);
+    }
+}
