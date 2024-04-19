@@ -23,6 +23,7 @@ body {
     text-align: center;
     border: 0.4px solid white;
     background-color: transparent;
+    animation: s 2s ease-in-out;
 }
 
 .header__key>h1 {
@@ -71,6 +72,15 @@ button {
     width: 95px;
 }
 
+
+@keyframes s {
+    from {
+        transform: translateY(1000px);
+    }
+     to {
+        transform: translateX(0px);
+     }
+}
 
 .header__key:hover {
     -moz-transform: scale(1.1) translate(21px, 2px) skew(-4deg, 0deg);
