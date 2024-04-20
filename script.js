@@ -5,6 +5,7 @@ const which = document.querySelector('.which');
 const text = document.querySelector('h1');
 const header = document.querySelector('.header__content');
 const clear = document.querySelector('button')
+const input = document.querySelector('input')
 
 document.addEventListener('keyup', (e) => {
     key.style.color = 'white';
@@ -25,5 +26,12 @@ document.addEventListener('keyup', (e) => {
 clear.addEventListener('click', () => {
     location.reload()
 })
+
+input.addEventListener('keyup') {
+    which.innerText = e.which;
+    key.innerText = e.key;
+    code.innerText = e.code;
+    locat.innerText = e.location;
+}
 
 
