@@ -107,17 +107,20 @@ button:hover {
 @media (max-width:440px) {
     .header__key {
         width: 60%;
+        margin: 15px auto;
         height: 100px;
     }
 
     input {
         display: block;
         margin: 5% auto;
-        font-size: 20px;
+        font-size: 15px;
+        letter-spacing: 1px;
         padding: 10px;
         border-radius: 5px;
         border: none;
-        border: 1px solid white;
+        border: 1px solid rgba(255, 255, 255, 0.719);
+        font-weight: 400;
         outline: none;
         background-color: transparent;
         height: 5vh;
