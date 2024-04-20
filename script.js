@@ -27,11 +27,5 @@ clear.addEventListener('click', () => {
     location.reload()
 })
 
-input.addEventListener('keyup') {
-    which.innerText = e.which;
-    key.innerText = e.key;
-    code.innerText = e.code;
-    locat.innerText = e.location;
-}
 
 
